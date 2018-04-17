@@ -1,17 +1,12 @@
+
 {
-    "name": "wilder14/composer",
     "require": {
         "ehime/hello-world": "^1.0"
     },
-    "authors": [
-        {
-            "name": "Nassgr",
-            "email": "anas.grina@hotmail.fr"
-        },
-        {
-            "autoload": {
-                "psr-4": {"App\\": "src/"}
-            }
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
         }
-    ]
+    }
 }
