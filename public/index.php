@@ -14,4 +14,4 @@ $hello = new Hello();
 $helloWorld = new SayHello();
 
 echo $hello->talk() . '<br>';
-echo $helloWorld::world();
+echo $helloWorld->talk();
